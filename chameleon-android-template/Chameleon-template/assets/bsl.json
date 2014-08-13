@@ -1,0 +1,10 @@
+{
+    "version" : 1.0,
+    "modules" : [
+    {"identifier":"pushModule", "name": "CpushModule" , "package": "com.foreveross.chameleon" , "firststart" : false},
+    {"identifier":"managerModule", "name": "CmanagerModule" , "package": "com.foreveross.bsl" , "firststart" : true}
+   // {"identifier":"testModule", "name": "CtextModule" , "package": "com.example.testacitvity" , "firststart" : false}
+	// {"identifier":"mdmModule", "name": "CmdmModule" , "package": "com.foreveross.mdm" , "firststart" : false},
+    // {"identifier":"baseModule", "name": "BaseModule" , "package": "com.foreveross.chameleon" , "firststart" : false}
+    ]
+}

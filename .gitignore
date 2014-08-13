@@ -1,0 +1,12 @@
+chameleon-android-template/BaseModule/gen/*
+chameleon-android-template/Chameleon-template/gen/*
+chameleon-android-template/ChamelonSDK/gen/*
+chameleon-android-template/CpushModule/gen/*
+chameleon-android-template/CubeModuleManager/gen/*
+chameleon-android-template/testModule/gen/*
+chameleon-android-template/BaseModule/bin/*
+chameleon-android-template/Chameleon-template/bin/*
+chameleon-android-template/ChamelonSDK/bin/*
+chameleon-android-template/CpushModule/bin/*
+chameleon-android-template/CubeModuleManager/bin/*
+chameleon-android-template/testModule/bin/*

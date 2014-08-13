@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.hellocordova" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Hello Cordova</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <access origin="*" />
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="App">
+        <param name="android-package" value="org.apache.cordova.App" />
+    </feature>
+    <plugins>
+    </plugins>
+   <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
+    <feature name="Battery">
+        <param name="android-package" value="org.apache.cordova.batterystatus.BatteryListener" />
+    </feature>
+    <feature name="Accelerometer">
+        <param name="android-package" value="org.apache.cordova.devicemotion.AccelListener" />
+    </feature>
+    <feature name="Compass">
+        <param name="android-package" value="org.apache.cordova.deviceorientation.CompassListener" />
+    </feature>
+    <feature name="Geolocation">
+        <param name="android-package" value="org.apache.cordova.geolocation.GeoBroker" />
+    </feature>
+    <feature name="Camera">
+        <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+    </feature>
+    <feature name="Media">
+        <param name="android-package" value="org.apache.cordova.media.AudioHandler" />
+    </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+    </feature>
+    <feature name="FileTransfer">
+        <param name="android-package" value="org.apache.cordova.filetransfer.FileTransfer" />
+    </feature>
+    <feature name="Notification">
+        <param name="android-package" value="org.apache.cordova.dialogs.Notification" />
+    </feature>
+    <feature name="Vibration">
+        <param name="android-package" value="org.apache.cordova.vibration.Vibration" />
+    </feature>
+    <feature name="Contacts">
+        <param name="android-package" value="org.apache.cordova.contacts.ContactManager" />
+    </feature>
+    <feature name="Globalization">
+        <param name="android-package" value="org.apache.cordova.globalization.Globalization" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+    </feature>
+    <feature name="Capture">
+        <param name="android-package" value="org.apache.cordova.mediacapture.Capture" />
+    </feature>
+    
+    
+     <feature name="CubeModuleList">
+        <param name="android-package" value="com.zdnst.juju.plugin.CubeModuleListPlugin" />
+    </feature>
+     <feature name="CubeModuleOperator">
+        <param name="android-package" value="com.zdnst.juju.plugin.CubeModuleOperatorPlugin" />
+    </feature>
+    <feature name="SecurityChangePlugin">
+        <param name="android-package" value="com.zdnst.juju.plugin.SecurityChangePlugin" />
+    </feature>
+     <feature name="CubeSettingPlugin" >
+        <param name="android-package" value="com.zdnst.juju.plugin.CubeSettingPlugin" />
+    </feature>
+    <feature name="CubeLogoutPlugin" >
+        <param name="android-package" value="com.zdnst.juju.plugin.CubeLogoutPlugin" />
+    </feature>
+    
+    <author email="dev@callback.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <preference name="fullscreen" value="false" />
+    <preference name="webviewbounce" value="true" />
+    <feature name="CommonPlugin">
+        <param name="android-package" value="com.darin.cordova.plugin.CommonPlugin" />
+    </feature>
+    <feature name="FragmentControlPlugin">
+        <param name="android-package" value="com.darin.cordova.plugin.FragmentControlPlugin" />
+    </feature>
+    <feature name="MessagePlugin">
+        <param name="android-package" value="com.zdnst.juju.plugin.MessagePlugin" />
+    </feature>
+    <feature name="PrivilegePlugin">
+        <param name="android-package" value="com.zdnst.juju.plugin.PrivilegePlugin" />
+    </feature>
+	    
+</widget>

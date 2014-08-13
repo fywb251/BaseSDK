@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/phone_splash_screen"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+     <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:id="@+id/phone_icon"
+        android:background="@drawable/welcom_midea"
+         />
+     
+     <RelativeLayout
+        android:id="@+id/welcome_loadinglayout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="107dp"
+        android:visibility="visible"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/dialog_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="10dip"
+            android:layout_toRightOf="@+id/ProgressBar01"
+            android:gravity="center"
+            android:text="正在初始化数据..."
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+
+        <ProgressBar
+            android:id="@+id/ProgressBar01"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dip" />
+    </RelativeLayout>
+
+</RelativeLayout>

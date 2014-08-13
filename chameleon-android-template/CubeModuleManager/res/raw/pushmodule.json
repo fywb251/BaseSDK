@@ -1,0 +1,9 @@
+[{
+"identifier": "pushModule",
+"mappings":[
+		{"/flight": "FlightViewController"},
+		{"/member/login": "LoginViewController"},
+		{"/flightDynamic/{id}/{name}": "pushModule"}
+ ]
+}
+]
